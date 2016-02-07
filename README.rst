@@ -8,7 +8,7 @@ Features
 
 Planned Features
 ================
-* Taking input!
+* More functionality
 
 Usage
 ======
