@@ -1,7 +1,6 @@
 drawPolygonContext
 ===================
-A simple context based off chad vernon's drawCurveContext tool. This just draws
-polygons instead of curves, which is similar to the create polygon tool.
+A simple context based off Chad Vernon's (http://www.chadvernon.com/blog/resources/maya-api-programming/) drawCurveContext tool. This just draws polygons instead of curves, which is similar to the create polygon tool.
 
 Features
 =========
