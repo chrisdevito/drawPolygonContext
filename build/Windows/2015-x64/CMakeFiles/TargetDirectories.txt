@@ -1,3 +1,0 @@
-E:/Users/Chris/Dropbox/Public/Scripts/drawPolygonContext/build/Windows/2015-x64/CMakeFiles/ALL_BUILD.dir
-E:/Users/Chris/Dropbox/Public/Scripts/drawPolygonContext/build/Windows/2015-x64/CMakeFiles/ZERO_CHECK.dir
-E:/Users/Chris/Dropbox/Public/Scripts/drawPolygonContext/build/Windows/2015-x64/src/CMakeFiles/drawPolygonContext.dir

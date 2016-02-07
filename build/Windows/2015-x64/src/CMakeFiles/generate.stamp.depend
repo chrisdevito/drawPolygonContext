@@ -1,6 +1,0 @@
-# CMake generation dependency list for this directory.
-E:/Users/Chris/Dropbox/Public/Scripts/drawPolygonContext/src/CMakeLists.txt
-E:/Users/Chris/Dropbox/Public/Scripts/drawPolygonContext/modules/FindMaya.cmake
-C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
-C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
