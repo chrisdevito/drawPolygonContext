@@ -8,14 +8,17 @@ Features
 
 Planned Features
 ================
-* More functionality
+* More functionality.
+* More builds.
 
 Usage
 ======
-Type this in the mel script editor with a polygon selected:
+Load the plugin using the plugin manager.
+
+Then type this in the mel script editor with a polygon selected:
     setToolTo drawPolygonContext1;
 
-Then start drawing!
+Start drawing!
 
 Compiling with CMake
 =====================
