@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{E8E790EA-2DDC-43A6-BA55-E6CA0258CEDB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4387A19B-5BB5-4361-91EF-8F7C35249C8E} = {4387A19B-5BB5-4361-91EF-8F7C35249C8E}
+		{6F77DFCB-CDE5-4241-A2D5-6CCD8257356A} = {6F77DFCB-CDE5-4241-A2D5-6CCD8257356A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{231DD852-D582-4667-A1B1-2A1A2B7E1837}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E8E790EA-2DDC-43A6-BA55-E6CA0258CEDB} = {E8E790EA-2DDC-43A6-BA55-E6CA0258CEDB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{4387A19B-5BB5-4361-91EF-8F7C35249C8E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "drawPolygonContext", "src\drawPolygonContext.vcxproj", "{6F77DFCB-CDE5-4241-A2D5-6CCD8257356A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4387A19B-5BB5-4361-91EF-8F7C35249C8E} = {4387A19B-5BB5-4361-91EF-8F7C35249C8E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+		MinSizeRel|x64 = MinSizeRel|x64
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8E790EA-2DDC-43A6-BA55-E6CA0258CEDB}.Debug|x64.ActiveCfg = Debug|x64
+		{E8E790EA-2DDC-43A6-BA55-E6CA0258CEDB}.Debug|x64.Build.0 = Debug|x64
+		{E8E790EA-2DDC-43A6-BA55-E6CA0258CEDB}.Release|x64.ActiveCfg = Release|x64
+		{E8E790EA-2DDC-43A6-BA55-E6CA0258CEDB}.Release|x64.Build.0 = Release|x64
+		{E8E790EA-2DDC-43A6-BA55-E6CA0258CEDB}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{E8E790EA-2DDC-43A6-BA55-E6CA0258CEDB}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{E8E790EA-2DDC-43A6-BA55-E6CA0258CEDB}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{E8E790EA-2DDC-43A6-BA55-E6CA0258CEDB}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{231DD852-D582-4667-A1B1-2A1A2B7E1837}.Debug|x64.ActiveCfg = Debug|x64
+		{231DD852-D582-4667-A1B1-2A1A2B7E1837}.Release|x64.ActiveCfg = Release|x64
+		{231DD852-D582-4667-A1B1-2A1A2B7E1837}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{231DD852-D582-4667-A1B1-2A1A2B7E1837}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{4387A19B-5BB5-4361-91EF-8F7C35249C8E}.Debug|x64.ActiveCfg = Debug|x64
+		{4387A19B-5BB5-4361-91EF-8F7C35249C8E}.Debug|x64.Build.0 = Debug|x64
+		{4387A19B-5BB5-4361-91EF-8F7C35249C8E}.Release|x64.ActiveCfg = Release|x64
+		{4387A19B-5BB5-4361-91EF-8F7C35249C8E}.Release|x64.Build.0 = Release|x64
+		{4387A19B-5BB5-4361-91EF-8F7C35249C8E}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{4387A19B-5BB5-4361-91EF-8F7C35249C8E}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{4387A19B-5BB5-4361-91EF-8F7C35249C8E}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{4387A19B-5BB5-4361-91EF-8F7C35249C8E}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{6F77DFCB-CDE5-4241-A2D5-6CCD8257356A}.Debug|x64.ActiveCfg = Debug|x64
+		{6F77DFCB-CDE5-4241-A2D5-6CCD8257356A}.Debug|x64.Build.0 = Debug|x64
+		{6F77DFCB-CDE5-4241-A2D5-6CCD8257356A}.Release|x64.ActiveCfg = Release|x64
+		{6F77DFCB-CDE5-4241-A2D5-6CCD8257356A}.Release|x64.Build.0 = Release|x64
+		{6F77DFCB-CDE5-4241-A2D5-6CCD8257356A}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{6F77DFCB-CDE5-4241-A2D5-6CCD8257356A}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{6F77DFCB-CDE5-4241-A2D5-6CCD8257356A}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{6F77DFCB-CDE5-4241-A2D5-6CCD8257356A}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

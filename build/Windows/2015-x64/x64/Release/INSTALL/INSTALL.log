@@ -1,0 +1,20 @@
+﻿Build started 2/7/2016 2:26:05 PM.
+     1>Project "E:\Users\Chris\Dropbox\Public\Scripts\drawPolygonContext\build\Windows\2015-x64\INSTALL.vcxproj" on node 2 (Build target(s)).
+     1>PostBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         -- Install configuration: "Release"
+         -- Installing: E:/Users/Chris/Dropbox/Public/Scripts/drawPolygonContext/build/Windows/2015-x64/install/plug-ins/drawPolygonContext.mll
+     1>Done Building Project "E:\Users\Chris\Dropbox\Public\Scripts\drawPolygonContext\build\Windows\2015-x64\INSTALL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.18

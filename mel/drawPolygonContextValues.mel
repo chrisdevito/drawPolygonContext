@@ -1,0 +1,20 @@
+global proc drawPolygonContextValues(string $toolName)
+{
+    string $parent = (`toolPropertyWindow -q -location`);
+    setParent $parent;
+
+    // Initialize settings
+    float $length = `drawPolygonContext -q -length $toolName`;
+    floatSliderGrp -e -v $length DrawPolygonLengthField;
+    floatSliderGrp -e
+        -changeCommand ("updateVertexLength " + $toolName)
+        DrawPolygonLengthField;
+
+    toolPropertySelect "drawPolygonContext";
+}
+
+global proc updateVertexLength(string $toolName)
+{
+    float $length = `floatSliderGrp -q -v DrawPolygonLengthField`;
+    drawPolygonContext -e -length $length $toolName;
+}

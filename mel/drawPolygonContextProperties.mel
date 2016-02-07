@@ -1,0 +1,29 @@
+global proc drawPolygonContextProperties()
+{
+    string $parent = `toolPropertyWindow -q -location`;
+    setParent $parent;
+
+    setUITemplate -pushTemplate OptionsTemplate;
+
+    columnLayout drawPolygonContext;
+
+        frameLayout -collapsable true
+                    -collapse false
+                    -label "Draw Polygon Settings";
+
+            columnLayout;
+                separator -style "none";
+                floatSliderGrp -label "Edit Vertex Distance"
+                               -field true
+                               -minValue 0.1
+                               -maxValue 100.0
+                               -fieldMinValue 0.1
+                               -fieldMaxValue 100.0
+                               -value 1.0
+                               DrawPolygonLengthField;
+            setParent ..;
+        setParent ..;
+    setParent ..;
+
+    setUITemplate -popTemplate;
+}

@@ -1,0 +1,22 @@
+﻿Build started 2/7/2016 2:26:02 PM.
+     1>Project "E:\Users\Chris\Dropbox\Public\Scripts\drawPolygonContext\build\Windows\2015-x64\src\drawPolygonContext.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule E:/Users/Chris/Dropbox/Public/Scripts/drawPolygonContext/src/CMakeLists.txt
+         CMake does not need to re-run because E:\Users\Chris\Dropbox\Public\Scripts\drawPolygonContext\build\Windows\2015-x64\src\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:/Program Files/Autodesk/Maya2015/include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D REQUIRE_IOSTREAM /D _BOOL /D NT_PLUGIN /D "CMAKE_INTDIR=\"Release\"" /D drawPolygonContext_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"drawPolygonContext.dir\Release\\" /Fd"drawPolygonContext.dir\Release\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\..\..\src\drawPolygonContext.cpp ..\..\..\..\src\drawPolygonContextCommand.cpp ..\..\..\..\src\pluginMain.cpp
+         drawPolygonContext.cpp
+         drawPolygonContextCommand.cpp
+         pluginMain.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Users\Chris\Dropbox\Public\Scripts\drawPolygonContext\build\Windows\2015-x64\src\Release\drawPolygonContext.mll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:/Program Files/Autodesk/Maya2015/lib" /LIBPATH:"C:/Program Files/Autodesk/Maya2015/lib/Release" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Program Files\Autodesk\Maya2015\lib\OpenMaya.lib" "C:\Program Files\Autodesk\Maya2015\lib\OpenMayaAnim.lib" "C:\Program Files\Autodesk\Maya2015\lib\OpenMayaFX.lib" "C:\Program Files\Autodesk\Maya2015\lib\OpenMayaRender.lib" "C:\Program Files\Autodesk\Maya2015\lib\OpenMayaUI.lib" "C:\Program Files\Autodesk\Maya2015\lib\Foundation.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:/Users/Chris/Dropbox/Public/Scripts/drawPolygonContext/build/Windows/2015-x64/src/Release/drawPolygonContext.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Users/Chris/Dropbox/Public/Scripts/drawPolygonContext/build/Windows/2015-x64/src/Release/drawPolygonContext.lib" /MACHINE:X64  /machine:x64 /export:initializePlugin /export:uninitializePlugin /DLL drawPolygonContext.dir\Release\drawPolygonContext.obj
+         drawPolygonContext.dir\Release\drawPolygonContextCommand.obj
+         drawPolygonContext.dir\Release\pluginMain.obj
+            Creating library E:/Users/Chris/Dropbox/Public/Scripts/drawPolygonContext/build/Windows/2015-x64/src/Release/drawPolygonContext.lib and object E:/Users/Chris/Dropbox/Public/Scripts/drawPolygonContext/build/Windows/2015-x64/src/Release/drawPolygonContext.exp
+         drawPolygonContext.vcxproj -> E:\Users\Chris\Dropbox\Public\Scripts\drawPolygonContext\build\Windows\2015-x64\src\Release\drawPolygonContext.mll
+     1>Done Building Project "E:\Users\Chris\Dropbox\Public\Scripts\drawPolygonContext\build\Windows\2015-x64\src\drawPolygonContext.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.13
