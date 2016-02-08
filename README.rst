@@ -13,6 +13,10 @@ Planned Features
 
 Usage
 ======
+Install the two mel script in your maya scripts path:
+    drawPolygonContextProperties.mel
+    drawPolygonContextValues.mel
+
 Load the plugin using the plugin manager.
 
 Then type this in the mel script editor with a polygon selected:
